@@ -1,0 +1,12 @@
+.active{
+    background: blue;
+}
+
+#id1{
+    background: green;
+}
+
+.hidden{
+    /* 隐藏元素 */
+    display: none;   
+}

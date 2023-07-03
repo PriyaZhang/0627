@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    position: fixed;  
+    bottom: 0px;
+    left: 0px;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background: white;
+}
+/* list-style: none;列表样式不使用符号，前面的点消失不见 
+position: fixed; 固定位置
+放到底部*/
+
+
+ul li{
+    flex:1;
+    text-align: center;
+}
+/* 平分布局 */
+
+.active{
+    color: red;
+}
+/* 点上去，红色显示 */
+
+dl{
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+dl dt{    
+    /* dl里的dt的css样式 */
+    font-size: 20px;
+}
+
+dl dd{
+    font-size: 12px;
+    color: grey;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+}
